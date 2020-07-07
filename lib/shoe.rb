@@ -11,6 +11,7 @@ class Shoe
       in_array == brand 
     else
       BRANDS << brand
+    end 
   end
   
   def cobble
