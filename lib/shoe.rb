@@ -7,12 +7,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     @brand =  brand 
-    if BRANDS.each |my_brand|
-      my_brand == brand 
-    else
-      BRANDS << brand
-    end 
-  end
+    BRANDS << brand 
+  end 
   
   def cobble
     self.condition = "new"
