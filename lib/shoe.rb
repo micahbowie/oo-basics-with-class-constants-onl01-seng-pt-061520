@@ -7,8 +7,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     @brand =  brand 
-    if BRANDS.each |in_array|
-      in_array == brand 
+    if BRANDS.each |my_brand|
+      my_brand == brand 
     else
       BRANDS << brand
     end 
